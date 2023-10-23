@@ -1,0 +1,176 @@
+
+/* start navbarLogin  */
+.logo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+} 
+.login , .cart{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+} 
+
+/* end navbarLogin  */
+/* start Slider file in component home   */
+
+.carousel-slider{
+    background-color: #333;
+    color: #fff;
+}
+.slider-title{
+    font-size: 25px;
+    line-height: 32px;
+    align-items: center;
+}
+.slider-text{
+    font-size: 40px;
+    font-weight: 700;
+    align-items: center;
+    color: red;
+}
+.perfumes , .caver-realme , .caver-Zara{
+    width: 500px;
+    height: 300px;
+}
+/* end Slider */
+
+/* start subtitle */
+.shopping-now{
+    padding: 10px;
+    border-radius:10px
+}
+/* end subtitle  */
+/* start  CategoryCard in category in component*/
+.allCard{
+    padding: 15px;
+}
+.category-card-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+ /* end CategoryCard */
+
+ /* start pagination */
+ .Pagination{
+    text-decoration: none;
+    list-style: none;
+    gap:10px;
+}
+ .page-item{
+    background-color: black;
+    color: #fff;
+    width: fit-content;
+    padding:10px
+ }
+ .item{
+    background-color: black;
+    color: #fff;
+
+    width: fit-content;
+    padding:10px
+ }
+    .PaginationActive{
+    background-color: blue;
+        color: #fff;
+    }
+
+ /* end pagination */
+/* start CategoryHeader */
+.cat-header{
+    background-color: #656565;
+}
+.col-head{
+    gap: 10px;
+}
+.cat-text-header{
+    background-color: #fff;
+    padding:5px;
+
+}
+
+/* end CategoryHeader */
+
+/* start SideFilter in folder utility*/
+.SideFilter{
+    margin-top: 20px;
+}
+.SideFilter .info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 10px;
+}
+.info input{
+    margin-bottom: 10px;
+}
+.info input[type="text"]{
+    margin-top: 10px;
+    width: 50px;
+    height: 20px;
+}
+/* end SideFilter */
+
+/*start ProductText*/ 
+.ProductText .color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+/*end ProductText*/
+/*star ratePost folder in Rate*/
+.RatePost textarea{
+    width: 100%;
+    border: 3px solid #333;
+}
+/*end ProductText*/
+/*start CartItem*/
+.CartItem {
+    background-color: rgb(210, 211, 213);
+    margin: 10px;
+    padding: 10px;
+}   
+.CartItem , .mach , .machItem ,.delete .deleteItem , .CartItem-one{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.delete{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+}
+/*end CartItem*/
+
+/*start CartChickOut in folder cart component*/
+.CartChickOut{
+    background-color: rgb(210, 211, 213);
+    margin: 10px;
+    padding: 10px;
+}
+.CartChickOut .product-price {
+    border: 1px solid #333;
+    text-align: center;
+}
+.CartChickOut .input-click{
+    background-color: #333;
+    color: #fff;
+}
+/*end CartChickOut*/
+/*start  ChickOutComponent*/
+.ChickOutComponent{
+    margin: 20px;
+}
+.ChickOutComponent .user-address-card {
+    background-color: rgb(225, 223, 223);
+    padding: 10px;
+}
+.product-price , .product-cart-add{
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    margin: 5px;
+}
+/*end ChickOutComponent*/
+
